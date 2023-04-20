@@ -1,6 +1,9 @@
-//import java.util.concurrent.Callable;
+/* The Callable interface is similar to the Runnable interface in that it is used to 
+ *      define a unit of work that can be executed in a separate thread. However, the
+ *      Callable interface is more powerful than Runnable because it allows the task 
+ *      to return a result and throw an exception.
+ */
 import java.util.concurrent.Future;
-//import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Main {
